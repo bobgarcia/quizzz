@@ -11,3 +11,12 @@ rm routes/users.js
 nano views/index.ejs
 nano app.js
 git add .
+mkdir controllers
+cd controllers/
+nano quiz_controller.js
+cd ..
+cd routes/
+nano index.js
+mkdir views/preguntas
+nano views/preguntas/pregunta.ejs
+nano views/preguntas/respuesta.ejs
