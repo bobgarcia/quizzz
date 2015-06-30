@@ -1,3 +1,13 @@
 git init
 nano .gitignore
 git add .
+git commit -m "esqueleto express-generator"
+npm install
+npm start
+node bin/www
+nano routes/index.js
+rm routes/users.js
+#Agregar favicon.ico a carpeta public
+nano views/index.ejs
+nano app.js
+git add .
