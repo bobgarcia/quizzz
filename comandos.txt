@@ -20,3 +20,9 @@ nano index.js
 mkdir views/preguntas
 nano views/preguntas/pregunta.ejs
 nano views/preguntas/respuesta.ejs
+npm install --save express-partials
+nano app.js
+nano views/index.ejs
+nano views/layout.ejs
+nano views/preguntas/pregunta.ejs
+nano views/preguntas/respuesta.ejs
