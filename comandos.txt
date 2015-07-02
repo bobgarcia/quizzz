@@ -26,3 +26,11 @@ nano views/index.ejs
 nano views/layout.ejs
 nano views/preguntas/pregunta.ejs
 nano views/preguntas/respuesta.ejs
+git add .
+git commit -m "Marco de la aplicación"
+nano views/layout.ejs
+nano public/stylesheets/style.css
+nano public/stylesheets/ancho.css
+nano public/stylesheets/telefono.css
+git add .
+git commit -m "CSS adaptable"

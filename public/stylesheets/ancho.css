@@ -1,0 +1,36 @@
+body {
+  background: #999;
+}
+
+/*
+* Modifica el contenido de la página HTML. Esto está feo...
+*/
+#page-wrap:after {
+  content: "Diseño ancho"
+}
+
+nav {
+  float: left;
+  width: 15%;
+  height: 200px;
+}
+
+/*
+ * Fuerza a que salte a la siguiente línea en cada elemento estableciendo un margen que no va a caber en la misma línea
+ */
+nav span {
+  margin: 0px 100px 0px 0px;
+}
+
+/*
+ * El resto de la página, dejando un 5% para bordes.
+ */
+section {
+  float: right;
+  width: 80%;
+  height: 200px;
+}
+footer {
+  clear: both;
+  display: block;
+}

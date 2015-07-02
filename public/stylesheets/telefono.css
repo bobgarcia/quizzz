@@ -1,0 +1,23 @@
+body {
+  background: #333;
+}
+
+/*
+* Modifica el contenido de la página HTML. Esto está feo...
+*/
+#page-wrap:after {
+  content: "Diseño para teléfono"
+}
+
+h2 span, section h3 {
+  display: none;
+}
+
+body {
+  font-size: xx-large;
+}
+
+footer, input {
+  font-size: large;
+}
+
