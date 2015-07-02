@@ -42,5 +42,12 @@ git push -f
 nano views/layout.ejs
 git add .
 git commit -m "Modificado para cumplir punto 1 de obligatoria mod6"
-
-
+git push
+nano routes/index.js
+nano views/layout.ejs
+nano controladores/controlador_autores.js
+#descargo monigote en public/images/foto.jpg
+nano views/autores.ejs
+git add .
+git commit -m "Ejercicio mod6 punto 2"
+git push origin autores
