@@ -34,3 +34,6 @@ nano public/stylesheets/ancho.css
 nano public/stylesheets/telefono.css
 git add .
 git commit -m "CSS adaptable"
+nano package.json
+git add .
+git commit -m "Despliegue en Heroku"
