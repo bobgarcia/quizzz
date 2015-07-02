@@ -37,3 +37,10 @@ git commit -m "CSS adaptable"
 nano package.json
 git add .
 git commit -m "Despliegue en Heroku"
+git commit --amend -m "Despliegue en Heroku"
+git push -f
+nano views/layout.ejs
+git add .
+git commit -m "Modificado para cumplir punto 1 de obligatoria mod6"
+
+
